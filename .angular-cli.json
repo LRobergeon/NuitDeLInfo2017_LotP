@@ -19,10 +19,13 @@
         "prefix": "jhi",
         "mobile": false,
         "styles": [
+            "content/css/style.css",
             "content/css/vendor.css",
             "content/css/global.css"
         ],
-        "scripts": []
+        "scripts": [
+            "app/script.js"
+        ]
     }],
     "lint": [{
             "project": "../../../tsconfig.json"
